@@ -320,8 +320,14 @@ p{
 
 }
 #services .service-top{
-    width: 650px;
+    width: 440px;
+}
+#services .service-top .section-title{
+    font-size: 35px;
+}
+#services .service-top p{
     max-width: 0 auto;
+    
 }
 #services .service-bottom{
     display: flex;
@@ -635,7 +641,7 @@ p{
     }
     h1.section-title{
         font-size: 6rem;
-    }
+    } 
     /* Hero */
     #hero h1{
         font-size: 7rem;
@@ -649,6 +655,9 @@ p{
     #services .service-bottom .service-itemWeb{
         flex-basis: 45%;
         margin: 2.5%;
+    }
+    #services .service-top .section-title{
+        font-size: 40px;
     }
     /* End Service Section */
     /* Project Section */
