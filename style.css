@@ -326,7 +326,7 @@ p{
     font-size: 35px;
 }
 #services .service-top p{
-    max-width: 0 auto;
+    max-width: 420px;
     
 }
 #services .service-bottom{
@@ -658,6 +658,10 @@ p{
     }
     #services .service-top .section-title{
         font-size: 40px;
+    }
+    #services .service-top p{
+        max-width: 0 auto;
+        
     }
     /* End Service Section */
     /* Project Section */
