@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 html{
-    font-size: 10px;
+    font-size: 10px; 
     font-family: Helvetica, sans-serif;
     scroll-behavior: smooth;
 }
@@ -774,4 +774,18 @@ p{
         }
 }
     /* END Meida Query for Desktop */
-    
+    /* Media query for iphone 13,12/pro */
+    /* 2532x1170 pixels at 460ppi */
+    @media only screen 
+    and (device-width: 390px) 
+    and (device-height: 844px) 
+    and (-webkit-device-pixel-ratio: 3) { 
+    }
+    /* END Media query for iphone 13,12/pro */
+    /* Mediaeury for iphone 13ProMax and 12ProMax */
+    /* 2778x1284 pixels at 458ppi */
+    @media only screen 
+    and (device-width: 428px) 
+    and (device-height: 926px) 
+    and (-webkit-device-pixel-ratio: 3) { }
+    /* END Media qeury for iphone 13ProMax and 12ProMax */
