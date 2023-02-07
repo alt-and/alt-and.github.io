@@ -585,13 +585,15 @@ p{
     font-size: 2.5rem;
     font-weight: 500;
     margin-bottom: 5px;
+    text-align: center;
 }
 #contact .contact-info h2{
     font-size: 1.3rem;
     line-height: 2rem;
     font-weight: 500;
+    text-align: center;
 }
-/* End COntact Section */
+/* End Contact Section */
 
 /* Footer */
 #footer {
@@ -737,7 +739,7 @@ p{
     #contact .contact-item .contact-info{
         width: 100%;
         text-align: left;
-        padding-left: 20px;
+        padding-left: 0px;
     }
     /* End COntact */
 }    
@@ -780,6 +782,7 @@ p{
     and (device-width: 390px) 
     and (device-height: 844px) 
     and (-webkit-device-pixel-ratio: 3) { 
+        
     }
     /* END Media query for iphone 13,12/pro */
     /* Mediaeury for iphone 13ProMax and 12ProMax */
@@ -787,12 +790,16 @@ p{
     @media only screen 
     and (device-width: 428px) 
     and (device-height: 926px) 
-    and (-webkit-device-pixel-ratio: 3) { }
+    and (-webkit-device-pixel-ratio: 3) { 
+
+    }
     /* END Media qeury for iphone 13ProMax and 12ProMax */
     /* Media query for iphone 11pro max and iphone xs max */
     /* 2688x1242px at 458ppi */
     @media only screen 
     and (device-width: 414px) 
     and (device-height: 896px) 
-    and (-webkit-device-pixel-ratio: 3) { }
+    and (-webkit-device-pixel-ratio: 3) { 
+
+    }
     /* END Media query for iphone 11pro max and iphone xs max */
