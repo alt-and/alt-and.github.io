@@ -776,30 +776,53 @@ p{
         }
 }
     /* END Meida Query for Desktop */
+
     /* Media query for iphone 13,12/pro */
     /* 2532x1170 pixels at 460ppi */
-    @media only screen 
-    and (device-width: 390px) 
-    and (device-height: 844px) 
-    and (-webkit-device-pixel-ratio: 3) { 
-        
+@media only screen 
+and (device-width: 390px) 
+and (device-height: 844px) 
+and (-webkit-device-pixel-ratio: 3) { 
+    #services .service-top .section-title{
+        font-size: 30px;
+        max-width: 433px;
     }
+    #services .service-top p{
+        font-size: 1.3rem;
+        padding-left: 24px;
+        max-width: 408px;
+    }
+}
     /* END Media query for iphone 13,12/pro */
+
     /* Mediaeury for iphone 13ProMax and 12ProMax */
     /* 2778x1284 pixels at 458ppi */
-    @media only screen 
-    and (device-width: 428px) 
-    and (device-height: 926px) 
-    and (-webkit-device-pixel-ratio: 3) { 
-
+@media only screen 
+and (device-width: 428px) 
+and (device-height: 926px) 
+and (-webkit-device-pixel-ratio: 3) { 
+    #services .service-top .section-title{
+        font-size: 33px;
     }
+    #services .service-top p{
+        padding-left: 10px;
+        max-width: 400px;
+    }
+}
     /* END Media qeury for iphone 13ProMax and 12ProMax */
+
     /* Media query for iphone 11pro max and iphone xs max */
     /* 2688x1242px at 458ppi */
-    @media only screen 
-    and (device-width: 414px) 
-    and (device-height: 896px) 
-    and (-webkit-device-pixel-ratio: 3) { 
-
+@media only screen 
+and (device-width: 414px) 
+and (device-height: 896px) 
+and (-webkit-device-pixel-ratio: 3) { 
+    #services .service-top .section-title{
+        font-size: 32px;
     }
+    #services .service-top p{
+        padding-left: 23px;
+        max-width: 408px;
+    }
+}
     /* END Media query for iphone 11pro max and iphone xs max */
